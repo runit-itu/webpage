@@ -2,9 +2,9 @@ import Navbar from "@/components/navigation/Navbar";
 
 export default function Activities() {
   return (
-    <div>
+    <div className="content">
       <Navbar />
-      <h1>Activities</h1>
+      <h1 style={{ textAlign: "center" }}>Activities</h1>
     </div>
   );
 }
